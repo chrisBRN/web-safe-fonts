@@ -6,6 +6,9 @@ For consistency all font family names are wrapped in single quotes. This is also
 
 "To avoid mistakes in escaping, it is recommended to quote font family names that contain white space, digits, or punctuation characters other than hyphens"
 
+The font families themselves were largely taken from [Kinsta](https://kinsta.com/blog/web-safe-fonts/), if your interested in web safe fonts I'd also recommend [Maddy Osman via Hubspot](https://blog.hubspot.com/website/web-safe-html-css-fonts)
+
+
 ## Vanilla CSS
 
 ### Serif
@@ -172,4 +175,46 @@ const fonts = {
         courier: "'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace",
     }
 }
+```
+
+## JS camelCase / React / ReactNative
+
+```js
+const styles = StyleSheet.create({
+    serif: {
+        fontFamily: 'Baskerville', 'Baskerville Old face', 'Garamond', 'Times New Roman', serif;
+        fontFamily: 'Bodoni MT', 'Bodoni 72', 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Times New Roman', serif;
+        fontFamily: 'Calisto MT', 'Bookman Old Style', 'Bookman', 'Goudy Old Style', 'Garamond', 'Hoefler Text', 'Bitstream Charter', 'Georgia', serif;
+        fontFamily: 'Cambria', 'Georgia', serif;
+        fontFamily: 'Didot', 'Didot LT STD', 'Hoefler Text', 'Garamond', 'Calisto MT', 'Times New Roman', serif;
+        fontFamily: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+        fontFamily: 'Georgia', 'Times', 'Times New Roman', serif;
+        fontFamily: 'Goudy Old Style', 'Garamond', 'Big Caslon', 'Times New Roman', serif;
+        fontFamily: 'Lucida Bright', 'Georgia', serif;
+        fontFamily: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+        fontFamily: 'Perpetua', 'Baskerville', 'Big Caslon', 'Palatino Linotype', 'Palatino', serif;
+        fontFamily: 'Rockwell', 'Courier Bold', 'Courier', 'Georgia', 'Times', 'Times New Roman', serif;
+    },
+    sans: {        
+        fontFamily: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+        fontFamily: 'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', sans-serif;
+        fontFamily: 'Candara', 'Calibri', 'Segoe', 'Segoe UI', 'Optima', 'Arial', sans-serif;
+        fontFamily: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+        fontFamily: 'Dejavu Sans', 'Arial', 'Verdana', sans-serif;
+        fontFamily: 'Franklin Gothic', 'Arial Bold', sans-serif;
+        fontFamily: 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
+        fontFamily: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+        fontFamily: 'Impact', 'Charcoal', 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans serif;
+        fontFamily: 'Lucida Sans', 'Helvetica', 'Arial', sans-serif;
+        fontFamily: 'Optima', 'Segoe', 'Segoe UI', 'Candara', 'Calibri', 'Arial', sans-serif;
+        fontFamily: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', 'Arial', sans-serif;
+        fontFamily: 'Tahoma', 'Verdana', 'Segoe', sans-serif;
+        fontFamily: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', sans-serif;
+        fontFamily: 'Verdana', 'Geneva', sans-serif;
+    },
+    mono: {
+        fontFamily: 'Consolas', 'Monaco', monospace;
+        fontFamily: 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    }
+})
 ```
