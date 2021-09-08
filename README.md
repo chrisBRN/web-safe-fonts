@@ -8,7 +8,6 @@ For consistency all font family names are wrapped in single quotes. This is also
 
 The font families themselves were largely taken from [Kinsta](https://kinsta.com/blog/web-safe-fonts/), if your interested in web safe fonts I'd also recommend [Maddy Osman via Hubspot](https://blog.hubspot.com/website/web-safe-html-css-fonts)
 
-
 ## Vanilla CSS
 
 ### Serif
