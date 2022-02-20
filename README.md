@@ -79,7 +79,7 @@ font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewri
 --font-gill: 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
 --font-helvetica: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 --font-impact: 'Impact', 'Charcoal', 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans serif;
---font-lucida: 'Lucida Sans', 'Helvetica', 'Arial', sans-serif;
+--font-lucida-sans: 'Lucida Sans', 'Helvetica', 'Arial', sans-serif;
 --font-optima: 'Optima', 'Segoe', 'Segoe UI', 'Candara', 'Calibri', 'Arial', sans-serif;
 --font-segoe: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', 'Arial', sans-serif;
 --font-tahoma: 'Tahoma', 'Verdana', 'Segoe', sans-serif;
@@ -121,7 +121,7 @@ $font-franklin: 'Franklin Gothic', 'Arial Bold', sans-serif;
 $font-gill: 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
 $font-helvetica: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $font-impact: 'Impact', 'Charcoal', 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans serif;
-$font-lucida: 'Lucida Sans', 'Helvetica', 'Arial', sans-serif;
+$font-lucida-sans: 'Lucida Sans', 'Helvetica', 'Arial', sans-serif;
 $font-optima: 'Optima', 'Segoe', 'Segoe UI', 'Candara', 'Calibri', 'Arial', sans-serif;
 $font-segoe: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', 'Arial', sans-serif;
 $font-tahoma: 'Tahoma', 'Verdana', 'Segoe', sans-serif;
